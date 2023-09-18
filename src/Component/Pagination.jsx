@@ -8,7 +8,7 @@ function Pagination() {
           <h1 className="text-4xl font-bold">Pagination</h1>
           <div className="bg-blue-400 w-32 h-1"></div>
         </div>
-        <div className="grid grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-5">
           {gitsUsers.map((element, index) => {
             return (
               <div className="bg-white rounded-xl w-60 h-52 shadow-xl flex flex-col items-center justify-center py-2 px-4 gap-5">
